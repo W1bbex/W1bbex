@@ -1,60 +1,136 @@
+<div align="center">
+
 # W1bbex
 
-**Python Backend • Telegram Ecosystem • Systems & IoT**
+**Python Backend · Telegram Ecosystem · Systems & Hardware Automation**
 
-Пишу прикладные сервисы на **Python**: бэкенды и Telegram-боты, статические/динамические анализаторы, CLI-инструменты и системную автоматизацию под Windows / Linux и `ESP8266`. Основной фокус — надёжная логика без лишних абстракций, воспроизводимая сборка и реальные тесты.
+Проектирую прикладные сервисы на **Python**: асинхронные бэкенды, Telegram-боты и Mini Apps,  
+анализаторы кода (`AST`), CLI-утилиты для `PyPI` и системную автоматизацию под **Windows / Linux / ESP8266**.
 
-🌐 **[w1bbex.ru](https://w1bbex.ru)** · 💬 **[Telegram (@w1bbex)](https://t.me/w1bbex)** · 📦 **[PyPI (`w1x-cli`)](https://pypi.org/project/w1x-cli/)**
+<br/>
+
+[![Website](https://img.shields.io/badge/Portfolio-w1bbex.ru-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://w1bbex.ru)
+[![Telegram](https://img.shields.io/badge/Telegram-@w1bbex-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/w1bbex)
+[![PyPI w1x-cli](https://img.shields.io/badge/PyPI-w1x--cli%203.5.1-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/w1x-cli/)
+[![PyPI tg-flowmap](https://img.shields.io/badge/PyPI-tg--flowmap%200.1.0-0EA5E9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/tg-flowmap/)
+
+</div>
 
 ---
 
 ### Открытые проекты
 
-| Репозиторий | Описание | Стек | Тесты |
-| :--- | :--- | :--- | :--- |
-| **[pc-control](https://github.com/W1bbex/pc-control)** | Удалённое управление ПК до входа в Windows: реле ATX, замок Морзе и `Winlogon` *(reference / pet-project под личный сетап)* | `Python` · `ESP8266` · `Win32 API` · `MQTT TLS` | **608** |
-| **[tg-flowmap](https://github.com/W1bbex/tg-flowmap)** | SAST (`Python AST`) и DAST (`Telethon`) карта экранов Telegram-ботов + UX-бенчмаркинг | `Python AST` · `Telethon` · `SVG` | **304** |
-| **[fpc-plugins](https://github.com/W1bbex/fpc-plugins)** | Модульные плагины для FunPay Cardinal (`AutoSMM` и клиент автообновлений `W1bbex Hub`) | `Python` · `FastAPI` · `Cython` | **349** |
-| **[w1x-cli](https://github.com/W1bbex/w1x-cli)** | Быстрый CLI-клиент для локальных моделей Ollama с tool calling и памятью (`pip install w1x-cli`) | `Python` · `Ollama` · `Rich` | **120** |
-| **[funpay-parser](https://github.com/W1bbex/funpay-parser)** | Асинхронный ETL-скрапер и аналитика лотов, отзывов и продавцов | `Python` · `asyncio` · `SQLite WAL` | **100** |
-| **[nail-booking-bot](https://github.com/W1bbex/nail-booking-bot)** | Telegram-бот онлайн-записи и Mini App для студии красоты | `Python` · `Telegram Bot API` · `Mini App` | — |
-| **[tg-shop-showcase](https://github.com/W1bbex/tg-shop-showcase)** | Архитектурный обзор коммерческого магазина цифровых товаров в Telegram (`@w1bbex_demo_bot`) | `aiogram 3` · `Bot API 10.1` · `SQLite WAL` | **311** |
+<table>
+  <thead>
+    <tr>
+      <th align="left">Проект</th>
+      <th align="left">Что делает</th>
+      <th align="left">Стек</th>
+      <th align="center">Тесты</th>
+      <th align="left">Ссылки</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>PC Control</strong></td>
+      <td>Управление ПК до входа в Windows: реле ATX, замок Морзе, <code>Winlogon</code>, VPN и телеметрия <sub><i>(pet-project под личный сетап)</i></sub></td>
+      <td><code>Python</code> · <code>ESP8266</code> · <code>Win32</code> · <code>MQTT TLS</code></td>
+      <td align="center"><strong>608</strong></td>
+      <td><a href="https://github.com/W1bbex/pc-control">GitHub</a> · <a href="https://w1bbex.ru/ru/pc-control/">Кейс</a></td>
+    </tr>
+    <tr>
+      <td><strong>TG-FlowMap</strong></td>
+      <td>SAST (<code>Python AST</code>) + DAST (<code>Telethon</code>) карта экранов Telegram-ботов и UX-бенчмаркинг</td>
+      <td><code>Python AST</code> · <code>Telethon</code> · <code>SVG</code></td>
+      <td align="center"><strong>304</strong></td>
+      <td><a href="https://github.com/W1bbex/tg-flowmap">GitHub</a> · <a href="https://pypi.org/project/tg-flowmap/">PyPI</a></td>
+    </tr>
+    <tr>
+      <td><strong>FPC Plugins</strong></td>
+      <td>Модульные плагины для FunPay Cardinal: <code>AutoSMM</code> (196 тестов) и <code>W1bbex Hub</code> (153 теста)</td>
+      <td><code>Python</code> · <code>FastAPI</code> · <code>Cython</code></td>
+      <td align="center"><strong>349</strong></td>
+      <td><a href="https://github.com/W1bbex/fpc-plugins">GitHub</a></td>
+    </tr>
+    <tr>
+      <td><strong>Nail Atelier</strong></td>
+      <td>Онлайн-запись и управление расписанием салона: бот + Telegram Mini App с админкой и RBAC</td>
+      <td><code>aiogram 3</code> · <code>FastAPI</code> · <code>SQLAlchemy</code></td>
+      <td align="center"><strong>188</strong></td>
+      <td><a href="https://github.com/W1bbex/nail-booking-bot">GitHub</a> · <a href="https://t.me/NailsAtelier_app">Демо</a></td>
+    </tr>
+    <tr>
+      <td><strong>W1x CLI</strong></td>
+      <td>Терминальный клиент для локальных моделей Ollama с поиском, REPL и долговременной памятью</td>
+      <td><code>Python</code> · <code>Ollama</code> · <code>Rich</code></td>
+      <td align="center"><strong>120</strong></td>
+      <td><a href="https://github.com/W1bbex/w1x-cli">GitHub</a> · <a href="https://pypi.org/project/w1x-cli/">PyPI</a></td>
+    </tr>
+    <tr>
+      <td><strong>FunPay Parser</strong></td>
+      <td>Асинхронный ETL-скрапер лотов, отзывов и продавцов с immutable raw-слоем</td>
+      <td><code>Python</code> · <code>asyncio</code> · <code>SQLite WAL</code></td>
+      <td align="center"><strong>100</strong></td>
+      <td><a href="https://github.com/W1bbex/funpay-parser">GitHub</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-### Основной стек
+### Технологический стек
 
-- **Backend & Data:** `Python 3.12+` · `asyncio` · `FastAPI` · `aiohttp` · `SQLite (WAL)` · `pytest`
-- **Telegram:** `Telegram Bot API` · `aiogram 3.x` · `Telethon (MTProto)` · `Mini Apps`
-- **Systems & Hardware:** `Win32 API` · `C++ (ESP8266 / BearSSL)` · `MQTT over TLS` · `Linux / systemd / Nginx`
+<table>
+  <tr>
+    <td width="190"><strong>Backend &amp; Data</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Python_3.12+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
+      <img src="https://img.shields.io/badge/SQLite_WAL-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"/>
+      <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy"/>
+      <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest"/>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Telegram &amp; Automation</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Telegram_Bot_API-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram Bot API"/>
+      <img src="https://img.shields.io/badge/aiogram_3-2CA5E0?style=flat-square&logo=telegram&logoColor=white" alt="aiogram"/>
+      <img src="https://img.shields.io/badge/Telethon_MTProto-1E293B?style=flat-square" alt="Telethon"/>
+      <img src="https://img.shields.io/badge/Python_AST_(SAST)-4B5563?style=flat-square" alt="Python AST"/>
+      <img src="https://img.shields.io/badge/Mini_Apps-7C3AED?style=flat-square" alt="Telegram Mini Apps"/>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Systems &amp; Hardware</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/ESP8266_C++-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP8266"/>
+      <img src="https://img.shields.io/badge/MQTT_TLS-660066?style=flat-square&logo=eclipse-mosquitto&logoColor=white" alt="MQTT"/>
+      <img src="https://img.shields.io/badge/Win32_API-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Win32 API"/>
+      <img src="https://img.shields.io/badge/Linux_systemd-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
+      <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
 <details>
-<summary>🇬🇧 English version</summary>
+<summary><strong>🇬🇧 English version</strong></summary>
 
-### About
+<br/>
 
-I build practical services and developer tools in **Python**: Telegram bots and backends, static/dynamic analyzers, CLI utilities, and Windows / Linux / `ESP8266` automation. I prefer straightforward architecture, explicit error contracts, and persistent regression test suites.
-
-🌐 **[w1bbex.ru](https://w1bbex.ru/en/dev/)** · 💬 **[Telegram (@w1bbex)](https://t.me/w1bbex)** · 📦 **[PyPI (`w1x-cli`)](https://pypi.org/project/w1x-cli/)**
+I build practical services and tools in **Python**: asynchronous backends, Telegram bots & Mini Apps, static/dynamic code analyzers (`AST`), `PyPI` CLI utilities, and system automation across **Windows, Linux, and ESP8266**.
 
 ### Open Source Projects
 
-| Repository | Summary | Stack | Tests |
-| :--- | :--- | :--- | :--- |
-| **[pc-control](https://github.com/W1bbex/pc-control)** | Out-of-band PC power control and remote Windows unlock across Session 0 *(custom pet-project reference)* | `Python` · `ESP8266` · `Win32 API` · `MQTT TLS` | **608** |
-| **[tg-flowmap](https://github.com/W1bbex/tg-flowmap)** | Static AST (`SAST`) + Telethon crawler (`DAST`) screen mapper for Telegram bots | `Python AST` · `Telethon` · `SVG` | **304** |
-| **[fpc-plugins](https://github.com/W1bbex/fpc-plugins)** | Modular FunPay Cardinal plugins (`AutoSMM` + `W1bbex Hub` auto-updater) | `Python` · `FastAPI` · `Cython` | **349** |
-| **[w1x-cli](https://github.com/W1bbex/w1x-cli)** | Keyboard-first CLI client for local Ollama models with tool calling and memory (`pip install w1x-cli`) | `Python` · `Ollama` · `Rich` | **120** |
-| **[funpay-parser](https://github.com/W1bbex/funpay-parser)** | Asynchronous ETL scraper and analytics for marketplace listings and sellers | `Python` · `asyncio` · `SQLite WAL` | **100** |
-| **[nail-booking-bot](https://github.com/W1bbex/nail-booking-bot)** | Telegram booking bot and Mini App for beauty studios | `Python` · `Telegram Bot API` · `Mini App` | — |
-| **[tg-shop-showcase](https://github.com/W1bbex/tg-shop-showcase)** | Architecture showcase for a Telegram digital storefront (`@w1bbex_demo_bot`) | `aiogram 3` · `Bot API 10.1` · `SQLite WAL` | **311** |
-
-### Core Stack
-
-- **Backend & Data:** `Python 3.12+` · `asyncio` · `FastAPI` · `aiohttp` · `SQLite (WAL)` · `pytest`
-- **Telegram:** `Telegram Bot API` · `aiogram 3.x` · `Telethon (MTProto)` · `Mini Apps`
-- **Systems & Hardware:** `Win32 API` · `C++ (ESP8266 / BearSSL)` · `MQTT over TLS` · `Linux / systemd / Nginx`
+| Project | Summary | Stack | Tests | Links |
+| :--- | :--- | :--- | :---: | :--- |
+| **PC Control** | Out-of-band power & remote Windows unlock across Session 0 *(custom pet-project reference)* | `Python` · `ESP8266` · `Win32` · `MQTT TLS` | **608** | [GitHub](https://github.com/W1bbex/pc-control) · [Case](https://w1bbex.ru/en/pc-control/) |
+| **TG-FlowMap** | Static AST (`SAST`) + Telethon crawler (`DAST`) screen mapper for Telegram bots | `Python AST` · `Telethon` · `SVG` | **304** | [GitHub](https://github.com/W1bbex/tg-flowmap) · [PyPI](https://pypi.org/project/tg-flowmap/) |
+| **FPC Plugins** | Modular FunPay Cardinal plugins: `AutoSMM` (196 tests) & `W1bbex Hub` (153 tests) | `Python` · `FastAPI` · `Cython` | **349** | [GitHub](https://github.com/W1bbex/fpc-plugins) |
+| **Nail Atelier** | Beauty studio booking Telegram bot & Mini App with admin panel and RBAC | `aiogram 3` · `FastAPI` · `SQLAlchemy` | **188** | [GitHub](https://github.com/W1bbex/nail-booking-bot) · [Demo](https://t.me/NailsAtelier_app) |
+| **W1x CLI** | Keyboard-first CLI client for local Ollama models with tool calling and persistent memory | `Python` · `Ollama` · `Rich` | **120** | [GitHub](https://github.com/W1bbex/w1x-cli) · [PyPI](https://pypi.org/project/w1x-cli/) |
+| **FunPay Parser** | Asynchronous ETL scraper and seller/listing analytics on SQLite WAL | `Python` · `asyncio` · `SQLite WAL` | **100** | [GitHub](https://github.com/W1bbex/funpay-parser) |
 
 </details>
