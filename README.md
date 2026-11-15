@@ -11,8 +11,7 @@
 
 [![Website](https://img.shields.io/badge/Portfolio-w1bbex.ru-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://w1bbex.ru)
 [![Telegram](https://img.shields.io/badge/Telegram-@w1bbex-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/w1bbex)
-[![PyPI w1x-cli](https://img.shields.io/badge/PyPI-w1x--cli%203.5.1-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/w1x-cli/)
-[![PyPI tg-flowmap](https://img.shields.io/badge/PyPI-tg--flowmap%200.1.0-0EA5E9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/tg-flowmap/)
+[![PyPI](https://img.shields.io/badge/PyPI-W1bbex-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/user/W1bbex/)
 
 </div>
 
