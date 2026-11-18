@@ -34,42 +34,42 @@
       <td><strong>PC Control</strong></td>
       <td>Управление ПК до входа в Windows: реле ATX, замок Морзе, <code>Winlogon</code>, VPN и телеметрия <sub><i>(pet-project под личный сетап)</i></sub></td>
       <td><code>Python</code> · <code>ESP8266</code> · <code>Win32</code> · <code>MQTT TLS</code></td>
-      <td align="center"><strong>608</strong></td>
+      <td align="center"><strong>642</strong></td>
       <td><a href="https://github.com/W1bbex/pc-control">GitHub</a> · <a href="https://w1bbex.ru/ru/pc-control/">Кейс</a></td>
     </tr>
     <tr>
       <td><strong>TG-FlowMap</strong></td>
       <td>SAST (<code>Python AST</code>) + DAST (<code>Telethon</code>) карта экранов Telegram-ботов и UX-бенчмаркинг</td>
       <td><code>Python AST</code> · <code>Telethon</code> · <code>SVG</code></td>
-      <td align="center"><strong>304</strong></td>
+      <td align="center"><strong>311</strong></td>
       <td><a href="https://github.com/W1bbex/tg-flowmap">GitHub</a> · <a href="https://pypi.org/project/tg-flowmap/">PyPI</a></td>
     </tr>
     <tr>
       <td><strong>FPC Plugins</strong></td>
-      <td>Модульные плагины для FunPay Cardinal: <code>AutoSMM</code> (196 тестов) и <code>W1bbex Hub</code> (153 теста)</td>
+      <td>Модульные плагины для FunPay Cardinal: <code>AutoSMM</code> (203 теста) и <code>W1bbex Hub</code> (153 теста)</td>
       <td><code>Python</code> · <code>FastAPI</code> · <code>Cython</code></td>
-      <td align="center"><strong>349</strong></td>
+      <td align="center"><strong>356</strong></td>
       <td><a href="https://github.com/W1bbex/fpc-plugins">GitHub</a></td>
     </tr>
     <tr>
       <td><strong>Nail Atelier</strong></td>
       <td>Онлайн-запись и управление расписанием салона: бот + Telegram Mini App с админкой и RBAC</td>
       <td><code>aiogram 3</code> · <code>FastAPI</code> · <code>SQLAlchemy</code></td>
-      <td align="center"><strong>188</strong></td>
+      <td align="center"><strong>213</strong></td>
       <td><a href="https://github.com/W1bbex/nail-booking-bot">GitHub</a> · <a href="https://t.me/NailsAtelier_app">Демо</a></td>
     </tr>
     <tr>
       <td><strong>W1x CLI</strong></td>
       <td>Терминальный клиент для локальных моделей Ollama с поиском, REPL и долговременной памятью</td>
       <td><code>Python</code> · <code>Ollama</code> · <code>Rich</code></td>
-      <td align="center"><strong>120</strong></td>
+      <td align="center"><strong>126</strong></td>
       <td><a href="https://github.com/W1bbex/w1x-cli">GitHub</a> · <a href="https://pypi.org/project/w1x-cli/">PyPI</a></td>
     </tr>
     <tr>
       <td><strong>FunPay Parser</strong></td>
       <td>Асинхронный ETL-скрапер лотов, отзывов и продавцов с immutable raw-слоем</td>
       <td><code>Python</code> · <code>asyncio</code> · <code>SQLite WAL</code></td>
-      <td align="center"><strong>100</strong></td>
+      <td align="center"><strong>129</strong></td>
       <td><a href="https://github.com/W1bbex/funpay-parser">GitHub</a></td>
     </tr>
   </tbody>
@@ -125,11 +125,11 @@ I build practical services and tools in **Python**: asynchronous backends, Teleg
 
 | Project | Summary | Stack | Tests | Links |
 | :--- | :--- | :--- | :---: | :--- |
-| **PC Control** | Out-of-band power & remote Windows unlock across Session 0 *(custom pet-project reference)* | `Python` · `ESP8266` · `Win32` · `MQTT TLS` | **608** | [GitHub](https://github.com/W1bbex/pc-control) · [Case](https://w1bbex.ru/en/pc-control/) |
-| **TG-FlowMap** | Static AST (`SAST`) + Telethon crawler (`DAST`) screen mapper for Telegram bots | `Python AST` · `Telethon` · `SVG` | **304** | [GitHub](https://github.com/W1bbex/tg-flowmap) · [PyPI](https://pypi.org/project/tg-flowmap/) |
-| **FPC Plugins** | Modular FunPay Cardinal plugins: `AutoSMM` (196 tests) & `W1bbex Hub` (153 tests) | `Python` · `FastAPI` · `Cython` | **349** | [GitHub](https://github.com/W1bbex/fpc-plugins) |
-| **Nail Atelier** | Beauty studio booking Telegram bot & Mini App with admin panel and RBAC | `aiogram 3` · `FastAPI` · `SQLAlchemy` | **188** | [GitHub](https://github.com/W1bbex/nail-booking-bot) · [Demo](https://t.me/NailsAtelier_app) |
-| **W1x CLI** | Keyboard-first CLI client for local Ollama models with tool calling and persistent memory | `Python` · `Ollama` · `Rich` | **120** | [GitHub](https://github.com/W1bbex/w1x-cli) · [PyPI](https://pypi.org/project/w1x-cli/) |
-| **FunPay Parser** | Asynchronous ETL scraper and seller/listing analytics on SQLite WAL | `Python` · `asyncio` · `SQLite WAL` | **100** | [GitHub](https://github.com/W1bbex/funpay-parser) |
+| **PC Control** | Out-of-band power & remote Windows unlock across Session 0 *(custom pet-project reference)* | `Python` · `ESP8266` · `Win32` · `MQTT TLS` | **642** | [GitHub](https://github.com/W1bbex/pc-control) · [Case](https://w1bbex.ru/en/pc-control/) |
+| **TG-FlowMap** | Static AST (`SAST`) + Telethon crawler (`DAST`) screen mapper for Telegram bots | `Python AST` · `Telethon` · `SVG` | **311** | [GitHub](https://github.com/W1bbex/tg-flowmap) · [PyPI](https://pypi.org/project/tg-flowmap/) |
+| **FPC Plugins** | Modular FunPay Cardinal plugins: `AutoSMM` (203 tests) & `W1bbex Hub` (153 tests) | `Python` · `FastAPI` · `Cython` | **356** | [GitHub](https://github.com/W1bbex/fpc-plugins) |
+| **Nail Atelier** | Beauty studio booking Telegram bot & Mini App with admin panel and RBAC | `aiogram 3` · `FastAPI` · `SQLAlchemy` | **213** | [GitHub](https://github.com/W1bbex/nail-booking-bot) · [Demo](https://t.me/NailsAtelier_app) |
+| **W1x CLI** | Keyboard-first CLI client for local Ollama models with tool calling and persistent memory | `Python` · `Ollama` · `Rich` | **126** | [GitHub](https://github.com/W1bbex/w1x-cli) · [PyPI](https://pypi.org/project/w1x-cli/) |
+| **FunPay Parser** | Asynchronous ETL scraper and seller/listing analytics on SQLite WAL | `Python` · `asyncio` · `SQLite WAL` | **129** | [GitHub](https://github.com/W1bbex/funpay-parser) |
 
 </details>
