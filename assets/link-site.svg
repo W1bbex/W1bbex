@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="38" viewBox="0 0 150 38" fill="none" role="img" aria-label="w1bbex.ru">
+  <rect x="0.75" y="0.75" width="148.5" height="36.5" rx="9" fill="#201930" stroke="#7459B8" stroke-width="1.2"/>
+  
+  <rect x="11" y="9" width="20" height="20" rx="5" fill="#F2EAFF"/>
+  <text x="21" y="23" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="900" letter-spacing="-0.8" fill="#3B0B99">W1</text>
+
+  <text x="40" y="23.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#F5F3F8">w1bbex.ru</text>
+  <text x="132" y="23" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#B99AF7">↗</text>
+</svg>

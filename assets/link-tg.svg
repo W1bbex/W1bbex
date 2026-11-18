@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="142" height="38" viewBox="0 0 142 38" fill="none" role="img" aria-label="@w1bbex">
+  <rect x="0.75" y="0.75" width="140.5" height="36.5" rx="9" fill="#16131C" stroke="#3C3740" stroke-width="1.2"/>
+  
+  <g transform="translate(13, 11) scale(0.67)">
+    <path d="M21.6 3.4 2.7 10.7c-1.3.5-1.3 1.3-.2 1.7l4.8 1.5 1.9 5.8c.2.6.1.8.8.8.5 0 .8-.2 1.1-.5l2.3-2.2 4.8 3.5c.9.5 1.5.2 1.8-.9l3.1-14.7c.4-1.4-.5-2-1.5-1.3ZM8 13.6l10.8-6.8c.5-.3 1-.1.6.2l-8.9 8-.4 3.8L8 13.6Z" fill="#B99AF7"/>
+  </g>
+
+  <text x="40" y="23.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#F5F3F8">@w1bbex</text>
+  <text x="124" y="23" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#8C8292">↗</text>
+</svg>
